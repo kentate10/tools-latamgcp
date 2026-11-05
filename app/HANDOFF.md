@@ -72,3 +72,6 @@ Antes de entregarlo (recomendado): revisar `start.cmd`, README y `configuracion.
 
 ### Rutas fijas
 Ya eliminadas: `start.cmd` busca Python en el PATH y `gcloud_path` queda vacio (se usa el gcloud del PATH). Instalacion para peers: ver `README.md` y `AGENTS.md` en la raiz del repo.
+
+## 8. Despliegue en GCP
+Analisis completo (identidad, permisos, arquitectura, preguntas para PaaS) en `../docs/DESPLIEGUE_GCP.md`. No implementado; se sigue en local.
