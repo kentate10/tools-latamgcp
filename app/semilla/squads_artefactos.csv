@@ -1,0 +1,673 @@
+Artefacto,Squad,IT element,Buscar como
+aa_mtd-aa-bff,ITTAM,Por validar,aa_mtd-aa-bff
+aa_mtd-portal-aa-frontend,ITTAM,Por validar,aa_mtd-portal-aa-frontend
+acl-edc-ado-email-sender-v2,DataOPS,Por validar,acl-edc-ado-email-sender-v2
+acl-notification,Por validar,Por validar,acl-notification
+acum_lote-acl-loyalty-accrual,Partner Dev X,ACUM_LOTE,acum_lote-acl-loyalty-accrual
+acum_lote-acl-loyalty-transaction,Partner Dev X,ACUM_LOTE,acum_lote-acl-loyalty-transaction
+acum_lote-acl-salesforce,Por validar,Por validar,acum_lote-acl-salesforce
+acum_lote-acl-webhook,Partner Dev X,ACUM_LOTE,acum_lote-acl-webhook
+acum_lote-bff-admin-portal-club,Por validar,Por validar,acum_lote-bff-admin-portal-club
+acum_lote-bl-accrual,Partner Dev X,ACUM_LOTE,acum_lote-bl-accrual
+acum_lote-bl-accrual-pack,Partner Dev X,ACUM_LOTE,acum_lote-bl-accrual-pack
+acum_lote-bl-bucket-bridge,Por validar,Por validar,acum_lote-bl-bucket-bridge
+acum_lote-bl-cobranded-life-cycle,Por validar,Por validar,acum_lote-bl-cobranded-life-cycle
+acum_lote-bl-files,Partner Dev X,ACUM_LOTE,acum_lote-bl-files
+acum_lote-bl-latampass-report,Por validar,Por validar,acum_lote-bl-latampass-report
+acum_lote-bl-promotion-optin,Por validar,Por validar,acum_lote-bl-promotion-optin
+acum_lote-bl-webhook,Partner Dev X,ACUM_LOTE,acum_lote-bl-webhook
+acum_lote-bl-webhook-migration,Partner Dev X,ACUM_LOTE,acum_lote-bl-webhook-migration
+acum_lote-facility-report-dbmigrations,Por validar,Por validar,acum_lote-facility-report-dbmigrations
+acum_lote-fe-admin-portal-club,Por validar,Por validar,acum_lote-fe-admin-portal-club
+acum_lote-ifly-mock-server,Partner Dev X,ACUM_LOTE,acum_lote-ifly-mock-server
+acum_lote-loypna-dbmigrations,Partner Dev X,ACUM_LOTE,acum_lote-loypna-dbmigrations
+acum_lote-poc-webhook-crud-nxt,Partner Dev X,ACUM_LOTE,acum_lote-poc-webhook-crud-nxt
+airpdm-airpdm-emergency-service,Assisted Services,AIRPDM,airpdm-airpdm-emergency-service
+airpdm-airpdm-pdc-adapter,Assisted Services,AIRPDM,airpdm-airpdm-pdc-adapter
+airpdm-airpdm-post-flight-service,Assisted Services,AIRPDM,airpdm-airpdm-post-flight-service
+airpdm-airpdm-pre-flight-service,Assisted Services,AIRPDM,airpdm-airpdm-pre-flight-service
+airpdm-airpdm-reports-service,Assisted Services,AIRPDM,airpdm-airpdm-reports-service
+airpdm-airpdm-web,Assisted Services,AIRPDM,airpdm-airpdm-web
+airpdm-rtts,Assisted Services,AIRPDM,airpdm-rtts
+alloy,Flight Crew Management,Por validar,alloy
+alloy-operator,Flight Crew Management,Por validar,alloy-operator
+altm-agentapi-bl,Canales,ALT,altm-agentapi-bl
+altm-authorizepayment-ebiz-bl,Canales,ALT,altm-authorizepayment-ebiz-bl
+altm-authorizepayment-pix-acl,Canales,ALT,altm-authorizepayment-pix-acl
+altm-authorizepayment-pix-bl,Canales,ALT,altm-authorizepayment-pix-bl
+altm-issue-ack-dal,Canales,ALT,altm-issue-ack-dal
+altm-massive-change-bl,Canales,ALT,altm-massive-change-bl
+altm-savewebpayment,Canales,ALT,altm-savewebpayment
+altm-specialservice-intg,Canales,ALT,altm-specialservice-intg
+altm-update-special-service-bl,Canales,ALT,altm-update-special-service-bl
+anticorrupcion-be,DataOPS,Por validar,anticorrupcion-be
+api,Plat. Core Systems,Por validar,api
+apiclaims-apiclaims-dot-application-be,Contact Center,APICLAIMS,apiclaims-apiclaims-dot-application-be
+apiclaims-claims-application-acl,Contact Center,APICLAIMS,apiclaims-claims-application-acl
+apiclaims-claims-application-anac-acl,Contact Center,APICLAIMS,apiclaims-claims-application-anac-acl
+apiclaims-claims-application-be-v2,Contact Center,APICLAIMS,apiclaims-claims-application-be-v2
+apiclaims-claims-application-dal,Contact Center,APICLAIMS,apiclaims-claims-application-dal
+apiclaims-claims-application-ra-acl,Contact Center,APICLAIMS,apiclaims-claims-application-ra-acl
+app-backup-bl,C3,Por validar,app-backup-bl
+app-dotation-dal,Contact Center,Por validar,app-dotation-dal
+app-growglow-dal,Contact Center,Por validar,app-growglow-dal
+app-hrvoice,Por validar,Por validar,app-hrvoice
+app-maintainer-bl,C3,Por validar,app-maintainer-bl
+app-siga-bl,C3,Por validar,app-siga-bl
+ares-ares-be,Pricing,Por validar,ares-ares-be
+ares-ares-bff,Pricing,Por validar,ares-ares-bff
+ares-ares-notification-service,Pricing,Por validar,ares-ares-notification-service
+ares-ares-requirements-consumer,Pricing,Por validar,ares-ares-requirements-consumer
+ares-ares-ui,Pricing,Por validar,ares-ares-ui
+arm_cloud-armario-bff-web-api,Por validar,ARM_CLOUD,arm_cloud-armario-bff-web-api
+arm_cloud-armario-bl,Por validar,ARM_CLOUD,arm_cloud-armario-bl
+arm_cloud-armario-dhl-bl,Por validar,ARM_CLOUD,arm_cloud-armario-dhl-bl
+arm_cloud-armario-fe,Por validar,ARM_CLOUD,arm_cloud-armario-fe
+arm_cloud-armario-sap-bl,Por validar,ARM_CLOUD,arm_cloud-armario-sap-bl
+ayc-cdp-corporate-bl,CDP,Por validar,ayc-cdp-corporate-bl
+ayc-cdp-corporate-dal,CDP,Por validar,ayc-cdp-corporate-dal
+ayc-cdp-employee-bl,CDP,Por validar,ayc-cdp-employee-bl
+ayc-cdp-employee-dal,CDP,Por validar,ayc-cdp-employee-dal
+backend-service,DataOPS,Por validar,backend-service
+background-controller,Por validar,Por validar,background-controller
+bdtar-btarifa-acl-ses,Pricing,Por validar,bdtar-btarifa-acl-ses
+bdtar-fta-bl-inbound,Pricing,Por validar,bdtar-fta-bl-inbound
+be-for-frontend,DataOPS,Por validar,be-for-frontend
+belvointegration-acl-belvo-integration,Por validar,BELVOINTEGRATION,belvointegration-acl-belvo-integration
+belvointegration-bff-belvo-integration,E2T FAL-X,BELVOINTEGRATION,belvointegration-bff-belvo-integration
+belvointegration-bl-belvo-integration,E2T FAL-X,BELVOINTEGRATION,belvointegration-bl-belvo-integration
+bff-search-flights,Por validar,Por validar,bff-search-flights
+bl-accrual-non-air-campaign,Por validar,Por validar,bl-accrual-non-air-campaign
+bl-basewebapi,Por validar,Por validar,bl-basewebapi
+bl-bucket-bridge,Por validar,Por validar,bl-bucket-bridge
+btarifa-acl-ses,Pricing,Por validar,btarifa-acl-ses
+business-pia-dal,Inventory,Por validar,business-pia-dal
+castware-operator,Por validar,Por validar,castware-operator
+cdacc-cdacc-centro-de-asistencia-acl,Contact Center,CDACC,cdacc-cdacc-centro-de-asistencia-acl
+cdacc-cdacc-centro-de-asistencia-be,Contact Center,CDACC,cdacc-cdacc-centro-de-asistencia-be
+cdacc-cdacc-centro-de-asistencia-bff,Contact Center,CDACC,cdacc-cdacc-centro-de-asistencia-bff
+cdacc-cdacc-centro-de-asistencia-fe,Contact Center,CDACC,cdacc-cdacc-centro-de-asistencia-fe
+cdp-co360-bl,CDP,Por validar,cdp-co360-bl
+cdp-co360-dal,CDP,Por validar,cdp-co360-dal
+cdp-customer-id-bl,CDP,Por validar,cdp-customer-id-bl
+cdp-dictionaries-bl,CDP,Por validar,cdp-dictionaries-bl
+cdp-dictionaries-dal,CDP,Por validar,cdp-dictionaries-dal
+cdp-events-hub,CDP,Por validar,cdp-events-hub
+cdp-metrics-service-elasticsearch,CDP,Por validar,cdp-metrics-service-elasticsearch
+cdp-metrics-service-neo4j,CDP,Por validar,cdp-metrics-service-neo4j
+cert-manager-cainjector,CDP,Por validar,cert-manager-cainjector
+cert-manager-controller,CDP,Por validar,cert-manager-controller
+cert-manager-webhook,CDP,Por validar,cert-manager-webhook
+ch-auth-acl-api,Core Supply,Por validar,ch-auth-acl-api
+ch-dal-api,Core Supply,Por validar,ch-dal-api
+ch-dal-report,Core Supply,Por validar,ch-dal-report
+ch-web-bff-api,Core Supply,Por validar,ch-web-bff-api
+ch-web-fe-resources,Core Supply,Por validar,ch-web-fe-resources
+changerate-pia-acl,Inventory,Por validar,changerate-pia-acl
+cleanup-controller,Por validar,Por validar,cleanup-controller
+cluster-controller,Por validar,Por validar,cluster-controller
+confluent-apigee-monitoring-exposer,DevSecOps TECH & CYSE,TRANSIT,confluent-apigee-monitoring-exposer
+confluent-issue-ticket-adapter,Por validar,Por validar,confluent-issue-ticket-adapter
+confluent-klba-admin-bl,DevSecOps TECH & CYSE,TRANSIT,confluent-klba-admin-bl
+confluent-klba-weblogic14-cluster,DevSecOps TECH & CYSE,TRANSIT,confluent-klba-weblogic14-cluster
+confluent-klba-wlspubsubmq-cluster,DevSecOps TECH & CYSE,TRANSIT,confluent-klba-wlspubsubmq-cluster
+confluent-klba-wlspubsubmq-east1-cluster,DevSecOps TECH & CYSE,TRANSIT,confluent-klba-wlspubsubmq-east1-cluster
+cpre-corporate-recognition-bl,Sales & Travel,Por validar,cpre-corporate-recognition-bl
+cpre-corporate-recognition-dal,Sales & Travel,Por validar,cpre-corporate-recognition-dal
+crew-host-be,Crew Management Core Capabilities,SRTLATAM,crew-host-be
+crew-host-session,Crew Management Core Capabilities,SRTLATAM,crew-host-session
+crew_vacation-andina-rules-bl,CrewCabinSupport,CREW_VACATION,crew_vacation-andina-rules-bl
+crew_vacation-auth-service-bl,CrewCabinSupport,CREW_VACATION,crew_vacation-auth-service-bl
+crew_vacation-crews-bl,CrewCabinSupport,CREW_VACATION,crew_vacation-crews-bl
+crew_vacation-mail-builder-bl,CrewCabinSupport,CREW_VACATION,crew_vacation-mail-builder-bl
+crew_vacation-orchestrator-bl,CrewCabinSupport,CREW_VACATION,crew_vacation-orchestrator-bl
+crew_vacation-rules-bl,CrewCabinSupport,CREW_VACATION,crew_vacation-rules-bl
+crew_vacation-service-delivery-mail-acl,CrewCabinSupport,CREW_VACATION,crew_vacation-service-delivery-mail-acl
+crew_vacation-southern-cone-rules-bl,CrewCabinSupport,CREW_VACATION,crew_vacation-southern-cone-rules-bl
+crew_vacation-support-bl,CrewCabinSupport,CREW_VACATION,crew_vacation-support-bl
+custom-metrics-stackdriver-adapter,CDP,Por validar,custom-metrics-stackdriver-adapter
+data-engineering-acl-ses-email-sender,DataOPS,Por validar,data-engineering-acl-ses-email-sender
+database-management-cargo-heroes,Core Supply,Por validar,database-management-cargo-heroes
+dinc-identity-resolution,CDP,Por validar,dinc-identity-resolution
+disol-api-dal,Contingency,DISOL,disol-api-dal
+disol-api-fleet-data-mediator,Contingency,DISOL,disol-api-fleet-data-mediator
+disol-basicservices-matrix,Contingency,DISOL,disol-basicservices-matrix
+disol-business-logic,Contingency,DISOL,disol-business-logic
+disol-cleaner,Contingency,DISOL,disol-cleaner
+disol-core,Contingency,DISOL,disol-core
+disol-ifneo-etl-service,Contingency,DISOL,disol-ifneo-etl-service
+disol-passenger-notification-orchestrator,Contingency,DISOL,disol-passenger-notification-orchestrator
+displayancillaryhistoryface-pia-acl,Inventory,Por validar,displayancillaryhistoryface-pia-acl
+displaymiscellaneousdocumentface-pia-acl,Inventory,Por validar,displaymiscellaneousdocumentface-pia-acl
+displaypnrface-pia-acl,Inventory,Por validar,displaypnrface-pia-acl
+displaytickethistoryface-pia-acl,Inventory,Por validar,displaytickethistoryface-pia-acl
+draft-klba-weblogic14-cluster,DevSecOps TECH & CYSE,TRANSIT,draft-klba-weblogic14-cluster
+dvl2-devol-scheduler-bl,Devoluciones,DVL2,dvl2-devol-scheduler-bl
+dvl2-devol-tcn-bl,Devoluciones,DVL2,dvl2-devol-tcn-bl
+dvl2-dvl2-processfiles-bl,Devoluciones,DVL2,dvl2-dvl2-processfiles-bl
+dvl2-refund-fe,Devoluciones,DVL2,dvl2-refund-fe
+dvl2-refund-status-bl,Devoluciones,DVL2,dvl2-refund-status-bl
+effp-bl-personalization,Por validar,Por validar,effp-bl-personalization
+effp-web-ec,Plat. Channels Mobile,Por validar,effp-web-ec
+effpaccrualpna-bff-mobile-alliance,Por validar,Por validar,effpaccrualpna-bff-mobile-alliance
+effpaccrualpna-bl-accrual-ssc-files,Por validar,Por validar,effpaccrualpna-bl-accrual-ssc-files
+effpbenefits-effp-bl-benefits,eLoyalty E2T Strive,Por validar,effpbenefits-effp-bl-benefits
+effpbenefits-effp-tl-member-benefits,eLoyalty E2T Strive,Por validar,effpbenefits-effp-tl-member-benefits
+effpbenefits-liquibase-migration,eLoyalty E2T Strive,Por validar,effpbenefits-liquibase-migration
+effpchannels-bff-cms-admin,Plat. Channels Mobile,Por validar,effpchannels-bff-cms-admin
+effpchannels-bff-ui-server,Plat. Channels Mobile,Por validar,effpchannels-bff-ui-server
+effpchannels-bl-cms-admin,Plat. Channels Mobile,Por validar,effpchannels-bl-cms-admin
+effpchannels-bl-ui-server,Plat. Channels Mobile,Por validar,effpchannels-bl-ui-server
+effpchannels-effp-bff-mobile-channels,Plat. Channels Mobile,Por validar,effpchannels-effp-bff-mobile-channels
+effpchannels-effp-bff-mobile-optin,Plat. Channels Mobile,Por validar,effpchannels-effp-bff-mobile-optin
+effpchannels-effp-bff-mobile-upg,Plat. Channels Mobile,Por validar,effpchannels-effp-bff-mobile-upg
+effpchannels-effp-bl-translate-server,Plat. Channels Mobile,Por validar,effpchannels-effp-bl-translate-server
+effpchannels-effp-ui-cms,Plat. Channels Mobile,Por validar,effpchannels-effp-ui-cms
+effpcobranditau-effp-acl-mobile-cobranditau,E2T FAL-X,EFFPCOBRANDITAU,effpcobranditau-effp-acl-mobile-cobranditau
+effpcobranditau-effp-bff-mobile-cobranditau,E2T FAL-X,EFFPCOBRANDITAU,effpcobranditau-effp-bff-mobile-cobranditau
+effpcobranditau-effp-bl-mobile-cobranditau,E2T FAL-X,EFFPCOBRANDITAU,effpcobranditau-effp-bl-mobile-cobranditau
+effpcobranditau-effp-tp-mobile-cobranditau,E2T FAL-X,EFFPCOBRANDITAU,effpcobranditau-effp-tp-mobile-cobranditau
+effpedcontent-effp-bff-mobile-ec,Plat. Channels Mobile,Por validar,effpedcontent-effp-bff-mobile-ec
+effpflights-bff-trips,Plat. Channels Mobile,Por validar,effpflights-bff-trips
+effpflights-eloyalty-bff-mobile-flights-v2,Plat. Channels Mobile,Por validar,effpflights-eloyalty-bff-mobile-flights-v2
+effpflights-eloyalty-bl-airports,Plat. Channels Mobile,Por validar,effpflights-eloyalty-bl-airports
+effpmilespurchase-acl-salesforce,Por validar,Por validar,effpmilespurchase-acl-salesforce
+effpmilespurchase-bff-admin-portal-,Por validar,Por validar,effpmilespurchase-bff-admin-portal-
+effpmilespurchase-bl-club-membership,E2T D2C,CLUB,effpmilespurchase-bl-club-membership
+effpmilespurchase-bl-notification,Por validar,Por validar,effpmilespurchase-bl-notification
+effpmilespurchase-membership-service,E2T D2C,CLUB,effpmilespurchase-membership-service
+effpmilestonebroker-effp-bl-milestone-broker,eLoyalty E2T Strive,Por validar,effpmilestonebroker-effp-bl-milestone-broker
+effppersonalization-bl-personalization-engine,Por validar,Por validar,effppersonalization-bl-personalization-engine
+effppersonalization-effp-bl-personalization,Por validar,Por validar,effppersonalization-effp-bl-personalization
+effpweb-effp-bff-web-app,Plat. Channels Web,Por validar,effpweb-effp-bff-web-app
+effpweb-effp-bff-web-content,Plat. Channels Web,Por validar,effpweb-effp-bff-web-content
+effpweb-effp-web-app,Plat. Channels Web,Por validar,effpweb-effp-web-app
+effpweb-effp-web-educational-content,Plat. Channels Web,Por validar,effpweb-effp-web-educational-content
+effpweb-effp-web-home,Plat. Channels Web,Por validar,effpweb-effp-web-home
+effpweb-poc-gitflow-effp-web-home,Plat. Channels Web,Por validar,effpweb-poc-gitflow-effp-web-home
+effpweb-poc-gitlab-migration,Plat. Channels Web,Por validar,effpweb-poc-gitlab-migration
+eloyfallcobrand-bl-cobranded-life-cycle,Por validar,Por validar,eloyfallcobrand-bl-cobranded-life-cycle
+eloyfallcobrand-elegibility-process,Por validar,ELOYFALLCOBRAND,eloyfallcobrand-elegibility-process
+eloyfallcobrand-eloy-fall-bff-mobile-cobrand,E2T FAL-X,ELOYFALLCOBRAND,eloyfallcobrand-eloy-fall-bff-mobile-cobrand
+eloyfallcobrand-eloy-fall-bl-missions-cobrand,E2T FAL-X,ELOYFALLCOBRAND,eloyfallcobrand-eloy-fall-bl-missions-cobrand
+eloyfallcobrand-eloy-fall-bl-mobile-cobrand,E2T FAL-X,ELOYFALLCOBRAND,eloyfallcobrand-eloy-fall-bl-mobile-cobrand
+eloyfallcobrand-eloy-fall-elegibility-processor,Por validar,ELOYFALLCOBRAND,eloyfallcobrand-eloy-fall-elegibility-processor
+email-ses-acl,Por validar,Por validar,email-ses-acl
+eprmanager,Sabre Hub,Por validar,eprmanager
+equipaje-spring-bl,Por validar,Por validar,equipaje-spring-bl
+esignature-bizagi-bff,Nexus Core,ESIGNT,esignature-bizagi-bff
+esignaturedecompress-be,Nexus Core,ESIGNT,esignaturedecompress-be
+external-secrets,Por validar,Por validar,external-secrets
+fast-air-sis-utils-fast-air-sis-utils-acl,Cargo Cross,Por validar,fast-air-sis-utils-fast-air-sis-utils-acl
+fast_air_sis_bod-saba-adminconfig-bl,Cargo Cross,FAST_AIR_SIS_BOD,fast_air_sis_bod-saba-adminconfig-bl
+fast_air_sis_bod-saba-adminconfig-dal,Cargo Cross,FAST_AIR_SIS_BOD,fast_air_sis_bod-saba-adminconfig-dal
+fast_air_sis_bod-saba-aduanas-acl,Cargo Cross,FAST_AIR_SIS_BOD,fast_air_sis_bod-saba-aduanas-acl
+fast_air_sis_bod-saba-croamis-acl,Cargo Cross,FAST_AIR_SIS_BOD,fast_air_sis_bod-saba-croamis-acl
+fast_air_sis_bod-saba-customsercontraloria-dal,Cargo Cross,FAST_AIR_SIS_BOD,fast_air_sis_bod-saba-customsercontraloria-dal
+fast_air_sis_bod-saba-email-acl,Cargo Cross,FAST_AIR_SIS_BOD,fast_air_sis_bod-saba-email-acl
+fast_air_sis_bod-saba-entrega-bl,Cargo Cross,FAST_AIR_SIS_BOD,fast_air_sis_bod-saba-entrega-bl
+fast_air_sis_bod-saba-entrega-dal,Cargo Cross,FAST_AIR_SIS_BOD,fast_air_sis_bod-saba-entrega-dal
+fast_air_sis_bod-saba-facturacion-bl,Cargo Cross,FAST_AIR_SIS_BOD,fast_air_sis_bod-saba-facturacion-bl
+fast_air_sis_bod-saba-facturacion-dal,Cargo Cross,FAST_AIR_SIS_BOD,fast_air_sis_bod-saba-facturacion-dal
+fast_air_sis_bod-saba-integraciones-spring,Cargo Cross,FAST_AIR_SIS_BOD,fast_air_sis_bod-saba-integraciones-spring
+fast_air_sis_bod-saba-interdocumental-bl,Cargo Cross,FAST_AIR_SIS_BOD,fast_air_sis_bod-saba-interdocumental-bl
+fast_air_sis_bod-saba-interdocumental-dal,Cargo Cross,FAST_AIR_SIS_BOD,fast_air_sis_bod-saba-interdocumental-dal
+fast_air_sis_bod-saba-interfisica-bl,Cargo Cross,FAST_AIR_SIS_BOD,fast_air_sis_bod-saba-interfisica-bl
+fast_air_sis_bod-saba-interfisica-dal,Cargo Cross,FAST_AIR_SIS_BOD,fast_air_sis_bod-saba-interfisica-dal
+fast_air_sis_bod-saba-manifiestovuelo-bl,Cargo Cross,FAST_AIR_SIS_BOD,fast_air_sis_bod-saba-manifiestovuelo-bl
+fast_air_sis_bod-saba-manifiestovuelo-dal,Cargo Cross,FAST_AIR_SIS_BOD,fast_air_sis_bod-saba-manifiestovuelo-dal
+fast_air_sis_bod-saba-signature-acl,Cargo Cross,FAST_AIR_SIS_BOD,fast_air_sis_bod-saba-signature-acl
+fast_air_sis_bod-saba-utils-bl,Cargo Cross,FAST_AIR_SIS_BOD,fast_air_sis_bod-saba-utils-bl
+fast_air_sis_bod-saba-web,Cargo Cross,FAST_AIR_SIS_BOD,fast_air_sis_bod-saba-web
+fast_air_sis_bod-web-redirect,Cargo Cross,FAST_AIR_SIS_BOD,fast_air_sis_bod-web-redirect
+fast_air_sis_bod_exp-gala-exp-aduana-acl,Cargo Cross,FAST_AIR_SIS_BOD_EXP,fast_air_sis_bod_exp-gala-exp-aduana-acl
+fast_air_sis_bod_exp-gala-exp-aduana-bff,Cargo Cross,FAST_AIR_SIS_BOD_EXP,fast_air_sis_bod_exp-gala-exp-aduana-bff
+fast_air_sis_bod_exp-gala-exp-aduana-bl,Cargo Cross,FAST_AIR_SIS_BOD_EXP,fast_air_sis_bod_exp-gala-exp-aduana-bl
+fast_air_sis_bod_exp-gala-exp-aduana-dal,Cargo Cross,FAST_AIR_SIS_BOD_EXP,fast_air_sis_bod_exp-gala-exp-aduana-dal
+fast_air_sis_bod_exp-gala-exp-approval-bl,Cargo Cross,FAST_AIR_SIS_BOD_EXP,fast_air_sis_bod_exp-gala-exp-approval-bl
+fast_air_sis_bod_exp-gala-exp-approval-dal,Cargo Cross,FAST_AIR_SIS_BOD_EXP,fast_air_sis_bod_exp-gala-exp-approval-dal
+fast_air_sis_bod_exp-gala-exp-audit-dal,Cargo Cross,FAST_AIR_SIS_BOD_EXP,fast_air_sis_bod_exp-gala-exp-audit-dal
+fast_air_sis_bod_exp-gala-exp-audit-processor-bl,Cargo Cross,FAST_AIR_SIS_BOD_EXP,fast_air_sis_bod_exp-gala-exp-audit-processor-bl
+fast_air_sis_bod_exp-gala-exp-audit-processor-dal,Cargo Cross,FAST_AIR_SIS_BOD_EXP,fast_air_sis_bod_exp-gala-exp-audit-processor-dal
+fast_air_sis_bod_exp-gala-exp-aura-tracking-bl,Cargo Cross,FAST_AIR_SIS_BOD_EXP,fast_air_sis_bod_exp-gala-exp-aura-tracking-bl
+fast_air_sis_bod_exp-gala-exp-clientes-bl,Cargo Cross,FAST_AIR_SIS_BOD_EXP,fast_air_sis_bod_exp-gala-exp-clientes-bl
+fast_air_sis_bod_exp-gala-exp-clientes-dal,Cargo Cross,FAST_AIR_SIS_BOD_EXP,fast_air_sis_bod_exp-gala-exp-clientes-dal
+fast_air_sis_bod_exp-gala-exp-document-compliance-dal,Cargo Cross,FAST_AIR_SIS_BOD_EXP,fast_air_sis_bod_exp-gala-exp-document-compliance-dal
+fast_air_sis_bod_exp-gala-exp-documentation-compliance-dal,Cargo Cross,FAST_AIR_SIS_BOD_EXP,fast_air_sis_bod_exp-gala-exp-documentation-compliance-dal
+fast_air_sis_bod_exp-gala-exp-fe,Cargo Cross,FAST_AIR_SIS_BOD_EXP,fast_air_sis_bod_exp-gala-exp-fe
+fast_air_sis_bod_exp-gala-exp-fulfillment-dal,Cargo Cross,FAST_AIR_SIS_BOD_EXP,fast_air_sis_bod_exp-gala-exp-fulfillment-dal
+fast_air_sis_bod_exp-gala-exp-mantenedor-bl,Cargo Cross,FAST_AIR_SIS_BOD_EXP,fast_air_sis_bod_exp-gala-exp-mantenedor-bl
+fast_air_sis_bod_exp-gala-exp-mantenedor-dal,Cargo Cross,FAST_AIR_SIS_BOD_EXP,fast_air_sis_bod_exp-gala-exp-mantenedor-dal
+fast_air_sis_bod_exp-gala-exp-notification-bl,Cargo Cross,FAST_AIR_SIS_BOD_EXP,fast_air_sis_bod_exp-gala-exp-notification-bl
+fast_air_sis_bod_exp-gala-exp-notification-dal,Cargo Cross,FAST_AIR_SIS_BOD_EXP,fast_air_sis_bod_exp-gala-exp-notification-dal
+fast_air_sis_bod_exp-gala-exp-operacion-carga-bl,Cargo Cross,FAST_AIR_SIS_BOD_EXP,fast_air_sis_bod_exp-gala-exp-operacion-carga-bl
+fast_air_sis_bod_exp-gala-exp-operacion-ot-bl,Cargo Cross,FAST_AIR_SIS_BOD_EXP,fast_air_sis_bod_exp-gala-exp-operacion-ot-bl
+fast_air_sis_bod_exp-gala-exp-operacioncarga-dal,Cargo Cross,FAST_AIR_SIS_BOD_EXP,fast_air_sis_bod_exp-gala-exp-operacioncarga-dal
+fast_air_sis_bod_exp-gala-exp-printer-bl,Cargo Cross,FAST_AIR_SIS_BOD_EXP,fast_air_sis_bod_exp-gala-exp-printer-bl
+fast_air_sis_bod_exp-gala-exp-printer-dal,Cargo Cross,FAST_AIR_SIS_BOD_EXP,fast_air_sis_bod_exp-gala-exp-printer-dal
+fast_air_sis_bod_exp-gala-exp-reportes-bl,Cargo Cross,FAST_AIR_SIS_BOD_EXP,fast_air_sis_bod_exp-gala-exp-reportes-bl
+fast_air_sis_bod_exp-gala-exp-reportes-dal,Cargo Cross,FAST_AIR_SIS_BOD_EXP,fast_air_sis_bod_exp-gala-exp-reportes-dal
+fast_air_sis_bod_exp-gala-exp-rfid-bl,Cargo Cross,FAST_AIR_SIS_BOD_EXP,fast_air_sis_bod_exp-gala-exp-rfid-bl
+fast_air_sis_bod_exp-gala-exp-sicex-acl,Cargo Cross,FAST_AIR_SIS_BOD_EXP,fast_air_sis_bod_exp-gala-exp-sicex-acl
+fast_air_sis_bod_exp-gala-exp-tarifas-bl,Cargo Cross,FAST_AIR_SIS_BOD_EXP,fast_air_sis_bod_exp-gala-exp-tarifas-bl
+fast_air_sis_bod_exp-gala-exp-tarifas-dal,Cargo Cross,FAST_AIR_SIS_BOD_EXP,fast_air_sis_bod_exp-gala-exp-tarifas-dal
+fast_air_sis_bod_exp-gala-exp-transport-gate-dal,Cargo Cross,FAST_AIR_SIS_BOD_EXP,fast_air_sis_bod_exp-gala-exp-transport-gate-dal
+fast_air_sis_bod_exp-gala-exp-uld-dal,Cargo Cross,FAST_AIR_SIS_BOD_EXP,fast_air_sis_bod_exp-gala-exp-uld-dal
+fast_air_sis_bod_exp-gala-exp-warehouse-bl,Cargo Cross,FAST_AIR_SIS_BOD_EXP,fast_air_sis_bod_exp-gala-exp-warehouse-bl
+fast_air_sis_bod_exp-reportes-bl,Cargo Cross,FAST_AIR_SIS_BOD_EXP,fast_air_sis_bod_exp-reportes-bl
+fast_air_sis_web-fastair-clientes-bl,Cargo Cross,FAST_AIR_SIS_WEB,fast_air_sis_web-fastair-clientes-bl
+fast_air_sis_web-fastair-clientes-dal,Cargo Cross,FAST_AIR_SIS_WEB,fast_air_sis_web-fastair-clientes-dal
+fast_air_sis_web-fastair-empresa-bl,Cargo Cross,FAST_AIR_SIS_WEB,fast_air_sis_web-fastair-empresa-bl
+fast_air_sis_web-fastair-empresa-dal,Cargo Cross,FAST_AIR_SIS_WEB,fast_air_sis_web-fastair-empresa-dal
+fast_air_sis_web-fastair-integracionemail-spring,Cargo Cross,FAST_AIR_SIS_WEB,fast_air_sis_web-fastair-integracionemail-spring
+fast_air_sis_web-fastair-integraciones-spring,Cargo Cross,FAST_AIR_SIS_WEB,fast_air_sis_web-fastair-integraciones-spring
+fast_air_sis_web-fastair-servicios-bl,Cargo Cross,FAST_AIR_SIS_WEB,fast_air_sis_web-fastair-servicios-bl
+fast_air_sis_web-fastair-servicios-dal,Cargo Cross,FAST_AIR_SIS_WEB,fast_air_sis_web-fastair-servicios-dal
+fast_air_sis_web-fastair-simuladorcostos-bl,Cargo Cross,FAST_AIR_SIS_WEB,fast_air_sis_web-fastair-simuladorcostos-bl
+fast_air_sis_web-fastair-simuladorcostos-dal,Cargo Cross,FAST_AIR_SIS_WEB,fast_air_sis_web-fastair-simuladorcostos-dal
+fast_air_sis_web-fastair-solicitudservesp-bl,Cargo Cross,FAST_AIR_SIS_WEB,fast_air_sis_web-fastair-solicitudservesp-bl
+fast_air_sis_web-fastair-solicitudservesp-dal,Cargo Cross,FAST_AIR_SIS_WEB,fast_air_sis_web-fastair-solicitudservesp-dal
+fast_air_sis_web-fastair-tarifario-bl,Cargo Cross,FAST_AIR_SIS_WEB,fast_air_sis_web-fastair-tarifario-bl
+fast_air_sis_web-fastair-tarifario-dal,Cargo Cross,FAST_AIR_SIS_WEB,fast_air_sis_web-fastair-tarifario-dal
+fast_air_sis_web-fastair-utils-bl,Cargo Cross,FAST_AIR_SIS_WEB,fast_air_sis_web-fastair-utils-bl
+fast_air_sis_web-fastair-utils-dal,Cargo Cross,FAST_AIR_SIS_WEB,fast_air_sis_web-fastair-utils-dal
+fast_air_sis_web-fastair-web-fe,Cargo Cross,FAST_AIR_SIS_WEB,fast_air_sis_web-fastair-web-fe
+fast_air_sis_web-fastair-web-fe-bc,Cargo Cross,FAST_AIR_SIS_WEB,fast_air_sis_web-fastair-web-fe-bc
+fast_air_sis_web-fastair-web-fe-landing-page,Cargo Cross,FAST_AIR_SIS_WEB,fast_air_sis_web-fastair-web-fe-landing-page
+fastair_web_exp-fastairweb-export,Cargo Cross,Por validar,fastair_web_exp-fastairweb-export
+fastair_web_exp-fastairweb-export-acl,Cargo Cross,Por validar,fastair_web_exp-fastairweb-export-acl
+fastair_web_exp-fastairweb-export-solicitudes,Cargo Cross,Por validar,fastair_web_exp-fastairweb-export-solicitudes
+fat-legacybr-cad-cor-bl,Por validar,Por validar,fat-legacybr-cad-cor-bl
+fat-legacybr-co-bl,Por validar,Por validar,fat-legacybr-co-bl
+fat-legacybr-co-fe,RA Sergio Ureta,Por validar,fat-legacybr-co-fe
+fat-legacybr-fat-bl,RA Sergio Ureta,FAT,fat-legacybr-fat-bl
+fat-legacybr-fat-fe,RA Sergio Ureta,FAT,fat-legacybr-fat-fe
+fat-legacybr-nfa-bl,RA Sergio Ureta,NFA,fat-legacybr-nfa-bl
+fat-legacybr-nfa-fe,RA Sergio Ureta,NFA,fat-legacybr-nfa-fe
+fat-legacybr-ra-bl,RA Sergio Ureta,AVL,fat-legacybr-ra-bl
+fat-legacybr-ra-fe,RA Sergio Ureta,AVL,fat-legacybr-ra-fe
+fat-legacybr-rec-bl,RA Sergio Ureta,REC_VEN,fat-legacybr-rec-bl
+fat-legacybr-rec-fe,RA Sergio Ureta,REC_VEN,fat-legacybr-rec-fe
+fat-legacybr-report-bl,Por validar,Por validar,fat-legacybr-report-bl
+fat-legacybr-rh-bl,Personas,OCV,fat-legacybr-rh-bl
+fat-legacybr-rh-fe,Personas,OCV,fat-legacybr-rh-fe
+fat-legacybr-scd-bl,Por validar,Por validar,fat-legacybr-scd-bl
+fat-legacybr-scd-fe,RA Sergio Ureta,SCD,fat-legacybr-scd-fe
+fat-legacybr-util-bl,RA Sergio Ureta,FAT,fat-legacybr-util-bl
+fat-legacyhub-scd-bl,Por validar,Por validar,fat-legacyhub-scd-bl
+fe-chatbot,CMDB & Dashboards,Por validar,fe-chatbot
+finanzas_ffp-api,Plat. Core Systems,Por validar,finanzas_ffp-api
+finanzas_ffp-web,Plat. Core Systems,Por validar,finanzas_ffp-web
+frontend-app,DataOPS,Por validar,frontend-app
+gcs-fuse-csi-driver-sidecar-mounter,Por validar,Por validar,gcs-fuse-csi-driver-sidecar-mounter
+gitlab-runner,Inventory,Por validar,gitlab-runner
+gptdem-acl-ses-email-sender,DataOPS,Por validar,gptdem-acl-ses-email-sender
+grafana,Por validar,Por validar,grafana
+handsontable-auth-service-bl,C3,Por validar,handsontable-auth-service-bl
+handsontable-bl,C3,Por validar,handsontable-bl
+handsontable-fe,C3,Por validar,handsontable-fe
+inthubcc-corporate-application-dal,Contact Center,INTHUBCC,inthubcc-corporate-application-dal
+inthubcc-cross-application-be,Contact Center,INTHUBCC,inthubcc-cross-application-be
+inthubcc-derivator-application-be,Contact Center,INTHUBCC,inthubcc-derivator-application-be
+inthubcc-derivator-application-dal,Contact Center,INTHUBCC,inthubcc-derivator-application-dal
+inthubcc-field-support-application-be,Contact Center,INTHUBCC,inthubcc-field-support-application-be
+inthubcc-genesys-application-be,Contact Center,INTHUBCC,inthubcc-genesys-application-be
+inthubcc-get-employee-application-acl,Contact Center,INTHUBCC,inthubcc-get-employee-application-acl
+inthubcc-hub-breaks-application-acl,Contact Center,INTHUBCC,inthubcc-hub-breaks-application-acl
+inthubcc-hub-breaks-application-be,Contact Center,INTHUBCC,inthubcc-hub-breaks-application-be
+inthubcc-hub-breaks-application-dal,Contact Center,INTHUBCC,inthubcc-hub-breaks-application-dal
+inthubcc-interaction-context-be,Contact Center,INTHUBCC,inthubcc-interaction-context-be
+inthubcc-interaction-context-dal,Contact Center,INTHUBCC,inthubcc-interaction-context-dal
+inthubcc-management-application-bff,Contact Center,INTHUBCC,inthubcc-management-application-bff
+inthubcc-pax-identification-be,Contact Center,INTHUBCC,inthubcc-pax-identification-be
+inthubcc-pax-selfservice-be,Contact Center,INTHUBCC,inthubcc-pax-selfservice-be
+inthubcc-reduce-calls-application-be,Contact Center,INTHUBCC,inthubcc-reduce-calls-application-be
+inthubcc-servicing-application-be,Contact Center,INTHUBCC,inthubcc-servicing-application-be
+issue-ticket-adapter,DevSecOps TECH & CYSE,TRANSIT,issue-ticket-adapter
+itinopercroamis-application-be,Cargo Cross,ITINOPERCROAMIS,itinopercroamis-application-be
+itinopercroamis-application-dal,Cargo Cross,ITINOPERCROAMIS,itinopercroamis-application-dal
+itinopercroamis-application-db,Cargo Cross,ITINOPERCROAMIS,itinopercroamis-application-db
+itinopercroamis-read-error-db,Cargo Cross,ITINOPERCROAMIS,itinopercroamis-read-error-db
+itinopercroamis-restart-retry,Cargo Cross,ITINOPERCROAMIS,itinopercroamis-restart-retry
+ito_20-checkin-process-be,APV & Catering,ITO_20,ito_20-checkin-process-be
+ito_20-crew-information-acl,APV & Catering,ITO_20,ito_20-crew-information-acl
+ito_20-crew-roster-acl,APV & Catering,ITO_20,ito_20-crew-roster-acl
+ito_20-flight-dal,APV & Catering,ITO_20,ito_20-flight-dal
+ito_20-gsuite-auth,APV & Catering,ITO_20,ito_20-gsuite-auth
+ito_20-itinerary-acl,APV & Catering,ITO_20,ito_20-itinerary-acl
+ito_20-ito-app-fe,APV & Catering,ITO_20,ito_20-ito-app-fe
+ito_20-ito-central-be,APV & Catering,ITO_20,ito_20-ito-central-be
+ito_20-ito-milestone-be,APV & Catering,ITO_20,ito_20-ito-milestone-be
+ito_20-ito2-be,APV & Catering,ITO_20,ito_20-ito2-be
+ito_20-ito2-bff,APV & Catering,ITO_20,ito_20-ito2-bff
+ito_20-ito2-dal,APV & Catering,ITO_20,ito_20-ito2-dal
+ito_20-ito2-flight-update-be,APV & Catering,ITO_20,ito_20-ito2-flight-update-be
+ito_20-ito2-menu-catering-bl,APV & Catering,ITO_20,ito_20-ito2-menu-catering-bl
+ito_20-ito2-saleforce,APV & Catering,ITO_20,ito_20-ito2-saleforce
+ito_20-ito2-statement-bl,APV & Catering,ITO_20,ito_20-ito2-statement-bl
+ito_20-ito2-token-generator,APV & Catering,ITO_20,ito_20-ito2-token-generator
+ito_20-maintainer-be,APV & Catering,ITO_20,ito_20-maintainer-be
+ito_20-operational-limitation-be,APV & Catering,ITO_20,ito_20-operational-limitation-be
+ito_20-orders-dal,APV & Catering,ITO_20,ito_20-orders-dal
+ito_20-overcatering-acl,APV & Catering,ITO_20,ito_20-overcatering-acl
+ito_20-publisher-flights-be,APV & Catering,ITO_20,ito_20-publisher-flights-be
+ito_20-sabre-acl,APV & Catering,ITO_20,ito_20-sabre-acl
+ito_20-send-email-acl,APV & Catering,ITO_20,ito_20-send-email-acl
+ito_20-services-dal,APV & Catering,ITO_20,ito_20-services-dal
+ito_20-supplying-request-be,APV & Catering,ITO_20,ito_20-supplying-request-be
+ito_20-suscriber-flights-be,APV & Catering,ITO_20,ito_20-suscriber-flights-be
+jira-proyecto-opcon,ITSM ESM & Portales,JIRA,jira-proyecto-opcon
+klba-weblogic14-cluster,DevSecOps TECH & CYSE,TRANSIT,klba-weblogic14-cluster
+klba-wlspubsubmq-cluster,DevSecOps TECH & CYSE,TRANSIT,klba-wlspubsubmq-cluster
+kvisor-controller,Por validar,Por validar,kvisor-controller
+kvisor-kcontroller,Por validar,Por validar,kvisor-kcontroller
+kvisor-scanners,Por validar,Por validar,kvisor-scanners
+kyverno,Por validar,Por validar,kyverno
+latam-videos-bl,Por validar,Por validar,latam-videos-bl
+latam-videos-dal,Por validar,Por validar,latam-videos-dal
+latam-videos-fe,Por validar,Por validar,latam-videos-fe
+legacy-acl-edc-ado-email-sender-v2,DataOPS,Por validar,legacy-acl-edc-ado-email-sender-v2
+loysys-ly-acl-,Por validar,Por validar,loysys-ly-acl-
+loysys-ly-acl-bucket,Por validar,Por validar,loysys-ly-acl-bucket
+loysys-ly-acl-bucket-prima,Por validar,Por validar,loysys-ly-acl-bucket-prima
+loysys-ly-acl-ifly-neo,Por validar,Por validar,loysys-ly-acl-ifly-neo
+loysys-ly-acl-ifly-ws,Por validar,Por validar,loysys-ly-acl-ifly-ws
+loysys-ly-acl-jira,Por validar,Por validar,loysys-ly-acl-jira
+loysys-ly-acl-sabre,Por validar,Por validar,loysys-ly-acl-sabre
+loysys-ly-mc-accrual,Por validar,Por validar,loysys-ly-mc-accrual
+loysys-ly-mc-member,Por validar,Por validar,loysys-ly-mc-member
+ltprp-agency-be,Sales & Travel,Por validar,ltprp-agency-be
+ltprp-budget-be,Sales & Travel,Por validar,ltprp-budget-be
+ltprp-latamtrade-acl,Sales & Travel,Por validar,ltprp-latamtrade-acl
+ltprp-latamtrade-bff,Sales & Travel,Por validar,ltprp-latamtrade-bff
+ltprp-latamtrade-fe,Sales & Travel,Por validar,ltprp-latamtrade-fe
+ltprp-waiver-be,Sales & Travel,Por validar,ltprp-waiver-be
+ltprp-waiver-dal,Sales & Travel,Por validar,ltprp-waiver-dal
+ly-mc-reprocess,Por validar,Por validar,ly-mc-reprocess
+ly-mc-reprocess-nonair,Por validar,Por validar,ly-mc-reprocess-nonair
+memberhub-bl-memberhub,Plat. Member Services,MEMBERHUB,memberhub-bl-memberhub
+memberinsights-bl-member-insights,Plat. Member Services,MEMBERINSIGHTS,memberinsights-bl-member-insights
+memberstatement-acl-ifly,Plat. Member Services,MEMBERSTATEMENT,memberstatement-acl-ifly
+memberstatement-acl-loyalty-member,Por validar,Por validar,memberstatement-acl-loyalty-member
+memberstatement-bl-loyalty-member,Por validar,Por validar,memberstatement-bl-loyalty-member
+memberstatement-bl-member-preferences,Plat. Member Services,MEMBERSTATEMENT,memberstatement-bl-member-preferences
+memberstatement-bl-member-services,Plat. Member Services,MEMBERSTATEMENT,memberstatement-bl-member-services
+memberstatement-bl-promotion-optin,Plat. Member Services,MEMBERSTATEMENT,memberstatement-bl-promotion-optin
+memberstatement-promotion-optin-migration,Plat. Member Services,MEMBERSTATEMENT,memberstatement-promotion-optin-migration
+millasxp-pcode-bl,Pricing,Por validar,millasxp-pcode-bl
+missions-bff-missions,eLoyalty E2T Strive,Por validar,missions-bff-missions
+missions-bl-app-actions,eLoyalty E2T Strive,Por validar,missions-bl-app-actions
+missions-bl-mbr-action-adapters,eLoyalty E2T Strive,Por validar,missions-bl-mbr-action-adapters
+missions-bl-mbr-core,eLoyalty E2T Strive,Por validar,missions-bl-mbr-core
+missions-bl-mbr-eligibility,eLoyalty E2T Strive,Por validar,missions-bl-mbr-eligibility
+missions-bl-mbr-progress,eLoyalty E2T Strive,Por validar,missions-bl-mbr-progress
+missions-bl-mbr-reward,eLoyalty E2T Strive,Por validar,missions-bl-mbr-reward
+missions-bl-missions-service,eLoyalty E2T Strive,Por validar,missions-bl-missions-service
+missions-liquibase-migration,eLoyalty E2T Strive,Por validar,missions-liquibase-migration
+missions-mbr-admin-panel,eLoyalty E2T Strive,Por validar,missions-mbr-admin-panel
+mot-hotel-category-api,Contingency,MOT,mot-hotel-category-api
+mot-mot-api-dal,Contingency,MOT,mot-mot-api-dal
+mot-prs-api-dal-writer,Contingency,MOT,mot-prs-api-dal-writer
+mot-ssdpax-dal,Contingency,MOT,mot-ssdpax-dal
+mot-sslatam-backend,Contingency,MOT,mot-sslatam-backend
+mot-sslatam-browserstack,Contingency,MOT,mot-sslatam-browserstack
+mot-sslatam-dal,Contingency,MOT,mot-sslatam-dal
+mot-sslatam-eligibility-validator,Contingency,MOT,mot-sslatam-eligibility-validator
+mot-sslatam-hotel-booking-service,Contingency,MOT,mot-sslatam-hotel-booking-service
+mot-sslatam-mobility-bl,Contingency,MOT,mot-sslatam-mobility-bl
+mot-sslatam-resources-generator,Contingency,MOT,mot-sslatam-resources-generator
+mot-sslatam-scheduled-processes,Contingency,MOT,mot-sslatam-scheduled-processes
+mot-sslatam-spring-email-acl,Contingency,MOT,mot-sslatam-spring-email-acl
+msg_sicex-msg-tracking-export,Cargo Cross,Por validar,msg_sicex-msg-tracking-export
+mtx-sailpoint-rpa,Corenix,Por validar,mtx-sailpoint-rpa
+mxi-oracle-data-service,Corenix,Por validar,mxi-oracle-data-service
+mxi-rpa,Corenix,Por validar,mxi-rpa
+mxi-rpa-aerorepair,Corenix,Por validar,mxi-rpa-aerorepair
+mxi-rpa-workpackage,Corenix,Por validar,mxi-rpa-workpackage
+mxi-support-bff,Corenix,Por validar,mxi-support-bff
+mxi-support-fe,Corenix,Por validar,mxi-support-fe
+mxi-support-journey,Corenix,Por validar,mxi-support-journey
+myteam-bff-basewebapi,Crew Management MYTEAM,MYTEAM,myteam-bff-basewebapi
+myteam-bl-crewperformance,Crew Management MYTEAM,MYTEAM,myteam-bl-crewperformance
+myteam-fe-basewebapi,Crew Management MYTEAM,MYTEAM,myteam-fe-basewebapi
+myteam-gsuite-auth,Crew Management MYTEAM,MYTEAM,myteam-gsuite-auth
+myteam-myteam-intellige-acl,Crew Management MYTEAM,MYTEAM,myteam-myteam-intellige-acl
+nae-bl-accrual-simulate,Plat. Airline Experience,NAE,nae-bl-accrual-simulate
+nae-bl-ancillary,Plat. Airline Experience,NAE,nae-bl-ancillary
+nae-bl-ola-accrual-air,Plat. Airline Experience,NAE,nae-bl-ola-accrual-air
+nae-bl-olaff,Plat. Airline Experience,NAE,nae-bl-olaff
+nae-tl-exchange-rate,Plat. Airline Experience,NAE,nae-tl-exchange-rate
+nae-tl-redemption-order,Plat. Airline Experience,NAE,nae-tl-redemption-order
+nae_retro-retros.latam-pass.latam.com,Plat. Core Systems,Por validar,nae_retro-retros.latam-pass.latam.com
+new-reservations-and-ticketing-ticket-state-acl,Assisted Services,AIRPDM,new-reservations-and-ticketing-ticket-state-acl
+nfa-legacybr-frp1-dal,RA Sergio Ureta,NFA,nfa-legacybr-frp1-dal
+nfa-legacybr-pr04-dal,RA Sergio Ureta,CTB,nfa-legacybr-pr04-dal
+nfa-legacybr-prod01-cor-dal,RA Sergio Ureta,COR,nfa-legacybr-prod01-cor-dal
+nfa-legacybr-prod01-dal,RA Sergio Ureta,AVL,nfa-legacybr-prod01-dal
+nfa-legacybr-prod01-fat-dal,RA Sergio Ureta,FAT,nfa-legacybr-prod01-fat-dal
+nfa-legacybr-prod03-dal,RA Sergio Ureta,OTC,nfa-legacybr-prod03-dal
+nfa-legacybr-rec-dal,RA Sergio Ureta,REC_VEN,nfa-legacybr-rec-dal
+nfa-legacybr-scd-dal,RA Sergio Ureta,SCD,nfa-legacybr-scd-dal
+nimbusgcp-acl-sabre-nimbus,Crew on Board,Por validar,nimbusgcp-acl-sabre-nimbus
+nimbusgcp-bff-nimbus,Crew on Board,Por validar,nimbusgcp-bff-nimbus
+nimbusgcp-bl-data-customer,Crew on Board,Por validar,nimbusgcp-bl-data-customer
+nimbusgcp-bl-data-loader,Crew on Board,Por validar,nimbusgcp-bl-data-loader
+nimbusgcp-bl-nimbus,Crew on Board,Por validar,nimbusgcp-bl-nimbus
+nimbusgcp-bl-subscriber-flight,Crew on Board,Por validar,nimbusgcp-bl-subscriber-flight
+nimbusgcp-catering-subscriber,Crew on Board,Por validar,nimbusgcp-catering-subscriber
+nimbusgcp-dal-nimbus,Crew on Board,Por validar,nimbusgcp-dal-nimbus
+nimbusgcp-deffered-service,Crew on Board,Por validar,nimbusgcp-deffered-service
+nimbusgcp-fe-nimbus-web,Crew on Board,Por validar,nimbusgcp-fe-nimbus-web
+nimbusgcp-gsuite-auth,Crew on Board,Por validar,nimbusgcp-gsuite-auth
+node-exporter,Flight Crew Management,Por validar,node-exporter
+nport-portal-autoservicio-back,Gestion de Solicitudes,Por validar,nport-portal-autoservicio-back
+nport-portal-autoservicio-front,Gestion de Solicitudes,Por validar,nport-portal-autoservicio-front
+nsur-nsur-be,Pricing,Por validar,nsur-nsur-be
+nsur-nsur-dal,Pricing,Por validar,nsur-nsur-dal
+nupg-nupg-acl-airport,Plat. Airline Experience,NUPG,nupg-nupg-acl-airport
+nupg-nupg-adl-bd,Plat. Airline Experience,NUPG,nupg-nupg-adl-bd
+nupg-nupg-bff-digital-services,Plat. Airline Experience,NUPG,nupg-nupg-bff-digital-services
+nupg-nupg-bff-external-agent,Plat. Airline Experience,NUPG,nupg-nupg-bff-external-agent
+nupg-nupg-dbmigrations,Plat. Airline Experience,NUPG,nupg-nupg-dbmigrations
+nupg-nupg-mc-benefit,Plat. Airline Experience,NUPG,nupg-nupg-mc-benefit
+oa-group,ITTAM,Por validar,oa-group
+oa-people,ITTAM,Por validar,oa-people
+oa_mtd-oa-group,ITTAM,Por validar,oa_mtd-oa-group
+oa_mtd-oa-notifications,ITTAM,Por validar,oa_mtd-oa-notifications
+oa_mtd-oa-people,ITTAM,Por validar,oa_mtd-oa-people
+oa_mtd-portal-oa-backend,ITTAM,Por validar,oa_mtd-portal-oa-backend
+oa_mtd-portal-oa-front,ITTAM,Por validar,oa_mtd-portal-oa-front
+oa_mtd-spring-email-acl,ITTAM,Por validar,oa_mtd-spring-email-acl
+ocv-ocv-acl,Personas,OCV,ocv-ocv-acl
+ocv-ocv-gcp,Personas,OCV,ocv-ocv-gcp
+ocv-reports-rh-bl,Personas,OCV,ocv-reports-rh-bl
+ocv-reports-rh-dal,Personas,OCV,ocv-reports-rh-dal
+onebook-authorization-bl,OneBook,Por validar,onebook-authorization-bl
+onebook-crews-bl,OneBook,Por validar,onebook-crews-bl
+onebook-delivery-zone-connector-bl,OneBook,Por validar,onebook-delivery-zone-connector-bl
+onebook-flights-bl,OneBook,Por validar,onebook-flights-bl
+onebook-melman-bl,OneBook,Por validar,onebook-melman-bl
+onebook-onebook-bl,OneBook,Por validar,onebook-onebook-bl
+onebook-onebook-fe,OneBook,Por validar,onebook-onebook-fe
+onebook-record-keeping-bl,OneBook,Por validar,onebook-record-keeping-bl
+opentelemetry-operator,Flight Crew Management,Por validar,opentelemetry-operator
+panel_360-app-frontend,CMDB & Dashboards,Por validar,panel_360-app-frontend
+partnermanagement-bl-alliance-accrual-rules-recurrent,Por validar,Por validar,partnermanagement-bl-alliance-accrual-rules-recurrent
+partnermanagement-bl-alliance-accrual-rules-retail,Por validar,Por validar,partnermanagement-bl-alliance-accrual-rules-retail
+partnermanagement-bl-alliance-accrual-transaction,Por validar,Por validar,partnermanagement-bl-alliance-accrual-transaction
+partnermanagement-bl-alliance-catalog,Por validar,Por validar,partnermanagement-bl-alliance-catalog
+partnermanagement-bl-alliance-missions,Por validar,Por validar,partnermanagement-bl-alliance-missions
+partnermanagement-bl-alliance-parking,Por validar,Por validar,partnermanagement-bl-alliance-parking
+partnermanagement-bl-alliance-product,Por validar,Por validar,partnermanagement-bl-alliance-product
+partnermanagement-bl-alliance-transfer,Por validar,Por validar,partnermanagement-bl-alliance-transfer
+partnermanagement-bl-partner-information,Plat. Partner Biz X,Por validar,partnermanagement-bl-partner-information
+partnermanagement-tl-entel,Por validar,Por validar,partnermanagement-tl-entel
+partnermanagement-tl-shopee-products,Por validar,Por validar,partnermanagement-tl-shopee-products
+partnerportal-eloy-bl-partner-portal,Plat. Partner Biz X,Por validar,partnerportal-eloy-bl-partner-portal
+partnerportal-eloy-partner-portal-bff-web,Plat. Partner Biz X,Por validar,partnerportal-eloy-partner-portal-bff-web
+partnerportal-eloy-partner-portal-web,Plat. Partner Biz X,Por validar,partnerportal-eloy-partner-portal-web
+pci_auth-authorize-payment-caixa,PCI_WTM / PCI_AUTH,PCI_AUTH,pci_auth-authorize-payment-caixa
+pci_auth-validateformofpaymentfraud,PCI_WTM / PCI_AUTH,PCI_AUTH,pci_auth-validateformofpaymentfraud
+pci_bsp-alert-be,PCI_BSP,PCI_BSP,pci_bsp-alert-be
+pci_bsp-crypto-be,PCI_BSP,PCI_BSP,pci_bsp-crypto-be
+pci_bsp-mask-be,PCI_BSP,PCI_BSP,pci_bsp-mask-be
+pci_bsp-portal-bff,PCI_BSP,PCI_BSP,pci_bsp-portal-bff
+pci_bsp-portal-fe,PCI_BSP,PCI_BSP,pci_bsp-portal-fe
+pci_ltpsbr-bff-facility,PCI_LTPSBR,PCI_LTPSBR,pci_ltpsbr-bff-facility
+pci_ltpsbr-bff-myaccount,PCI_LTPSBR,PCI_LTPSBR,pci_ltpsbr-bff-myaccount
+pci_ltpsbr-fe-latampassbr,PCI_LTPSBR,PCI_LTPSBR,pci_ltpsbr-fe-latampassbr
+pci_ltpsbr-fe-latampassbr-multiplication,PCI_LTPSBR,PCI_LTPSBR,pci_ltpsbr-fe-latampassbr-multiplication
+pci_ltpsbr-fe-myaccount,PCI_LTPSBR,PCI_LTPSBR,pci_ltpsbr-fe-myaccount
+pci_ltpsbr-fe-pointspurchase,PCI_LTPSBR,PCI_LTPSBR,pci_ltpsbr-fe-pointspurchase
+pci_ltpsbr-http-apache-server,PCI_LTPSBR,PCI_LTPSBR,pci_ltpsbr-http-apache-server
+pci_wdv-wdv-bl,PCI_WDV,PCI_WDV,pci_wdv-wdv-bl
+pci_wdv-wdv-dal,PCI_WDV,PCI_WDV,pci_wdv-wdv-dal
+pci_wdv-wdv-fe,PCI_WDV,PCI_WDV,pci_wdv-wdv-fe
+pci_wtm-be-wtm,PCI_WTM / PCI_AUTH,PCI_WTM,pci_wtm-be-wtm
+pci_wtm-be-wtm-allegro,PCI_WTM / PCI_AUTH,PCI_WTM,pci_wtm-be-wtm-allegro
+pci_wtm-bff-wtm,PCI_WTM / PCI_AUTH,PCI_WTM,pci_wtm-bff-wtm
+pci_wtm-bff-wtm-allegro,PCI_WTM / PCI_AUTH,PCI_WTM,pci_wtm-bff-wtm-allegro
+pci_wtm-dal-wtm,PCI_WTM / PCI_AUTH,PCI_WTM,pci_wtm-dal-wtm
+pci_wtm-payment-be,PCI_WTM / PCI_AUTH,PCI_WTM,pci_wtm-payment-be
+pci_wtm-payment-bff,PCI_WTM / PCI_AUTH,PCI_WTM,pci_wtm-payment-bff
+pci_wtm-payment-fe,PCI_WTM / PCI_AUTH,PCI_WTM,pci_wtm-payment-fe
+pci_wtm-send-external-payment-redis,PCI_WTM / PCI_AUTH,PCI_WTM,pci_wtm-send-external-payment-redis
+pciccint-application-ivr-pci-be,PCI_CCINT,PCI_CCINT,pciccint-application-ivr-pci-be
+pia-scheduler,Inventory,Por validar,pia-scheduler
+pia-spring-email-acl,Inventory,Por validar,pia-spring-email-acl
+pilot-api-cae-bl,Flight Crew Management,Por validar,pilot-api-cae-bl
+pilot-application-communication-be,Flight Crew Management,Por validar,pilot-application-communication-be
+pilot-application-crew-briefing-be,Flight Crew Management,Por validar,pilot-application-crew-briefing-be
+pilot-application-dal,Flight Crew Management,Por validar,pilot-application-dal
+pilot-application-data-out-be,Flight Crew Management,Por validar,pilot-application-data-out-be
+pilot-application-fuel-be,Flight Crew Management,Por validar,pilot-application-fuel-be
+pilot-application-profile-be,Flight Crew Management,Por validar,pilot-application-profile-be
+pilot-application-report-be,Flight Crew Management,Por validar,pilot-application-report-be
+pilot-application-role-be,Flight Crew Management,Por validar,pilot-application-role-be
+pilot-application-safety-be,Flight Crew Management,Por validar,pilot-application-safety-be
+pilot-application-send-mail-be,Flight Crew Management,Por validar,pilot-application-send-mail-be
+pilot-dispatch-be,Flight Crew Management,Por validar,pilot-dispatch-be
+pilot-flightlog-be,Flight Crew Management,Por validar,pilot-flightlog-be
+pilot-operational-events-reception-be,Flight Crew Management,Por validar,pilot-operational-events-reception-be
+pilot-sabre-connect-bl,Flight Crew Management,Por validar,pilot-sabre-connect-bl
+port-ocean-gitlabitta,Por validar,Por validar,port-ocean-gitlabitta
+pos-inventory-pos-inventory-bl,PCI_WDV,PCI_WDV,pos-inventory-pos-inventory-bl
+pos-inventory-pos-inventory-dal,PCI_WDV,PCI_WDV,pos-inventory-pos-inventory-dal
+pos-inventory-pos-inventory-fe,PCI_WDV,PCI_WDV,pos-inventory-pos-inventory-fe
+prest,Por validar,Por validar,prest
+prime-prime-be,Pricing,Por validar,prime-prime-be
+prime-prime-bff,Pricing,Por validar,prime-prime-bff
+prime-prime-notification-service,Pricing,Por validar,prime-prime-notification-service
+prime-prime-requirements-consumer,Pricing,Por validar,prime-prime-requirements-consumer
+prime-prime-ui,Pricing,Por validar,prime-prime-ui
+prometheus,Por validar,PCI_CCINT,prometheus
+prometheus-config-reloader,Flight Crew Management,Por validar,prometheus-config-reloader
+prs30-auto-flight-approver-queue-agent,Contingency,PRS30,prs30-auto-flight-approver-queue-agent
+prt_teleco-perifericos-cisco-bl,Telecomunicaciones,PRT_TELECO,prt_teleco-perifericos-cisco-bl
+qfl2-app-aidx2pubsub-be,Contact Center,QFL2,qfl2-app-aidx2pubsub-be
+qfl2-app-cancellation-be,Contact Center,QFL2,qfl2-app-cancellation-be
+qfl2-app-datatransactions-be,Contact Center,QFL2,qfl2-app-datatransactions-be
+qfl2-app-displaypassengerlist-acl,Contact Center,QFL2,qfl2-app-displaypassengerlist-acl
+qfl2-app-getreservation-acl,Contact Center,QFL2,qfl2-app-getreservation-acl
+qfl2-app-getreservation-be,Contact Center,QFL2,qfl2-app-getreservation-be
+qfl2-app-mixedmetalob-be,Contact Center,QFL2,qfl2-app-mixedmetalob-be
+qfl2-app-reprocess-be,Contact Center,QFL2,qfl2-app-reprocess-be
+qfl2-app-sendtomedallia-be,Contact Center,QFL2,qfl2-app-sendtomedallia-be
+qfl2-app-surveycc-dal,Contact Center,QFL2,qfl2-app-surveycc-dal
+qfl2-app-users-acl,Contact Center,QFL2,qfl2-app-users-acl
+qfl2-app-users-be,Contact Center,QFL2,qfl2-app-users-be
+ra_cloud-reinra-ra-info-mgmt-be-api,RA Jerinverg,RA_INF20,ra_cloud-reinra-ra-info-mgmt-be-api
+ra_cloud-revfse-financial-accounting-api,RA Jerinverg,RA_ING20,ra_cloud-revfse-financial-accounting-api
+ra_cloud-revfse-ra-web-bff-api,RA Jerinverg,RA_INF20,ra_cloud-revfse-ra-web-bff-api
+ra_cloud-revfse-ra-web-fe-resources,RA Jerinverg,Por validar,ra_cloud-revfse-ra-web-fe-resources
+ra_cloud-reving-a-ras-acl-api,RA Jerinverg,RA_ING20,ra_cloud-reving-a-ras-acl-api
+ra_cloud-reving-process-info-mgmt-ingestion,RA Jerinverg,RA_ING20,ra_cloud-reving-process-info-mgmt-ingestion
+ra_cloud-reving-ra-ingest-be-api,RA Jerinverg,RA_ING20,ra_cloud-reving-ra-ingest-be-api
+ra_cloud-rintra-ra-ods-masters-dal,RA Jerinverg,RA_INF20,ra_cloud-rintra-ra-ods-masters-dal
+ra_cloud-rintra-ra-service-be-api,RA Jerinverg,RA_INF20,ra_cloud-rintra-ra-service-be-api
+ra_cloud-rintra-ra-service-dal,RA Jerinverg,RA_INF20,ra_cloud-rintra-ra-service-dal
+read-error-db,Cargo Cross,Por validar,read-error-db
+redeemair-acl-loyalty-redeem,Plat. Airline Experience,REDEEMAIR,redeemair-acl-loyalty-redeem
+redeemair-tl-redeem-air,Plat. Airline Experience,REDEEMAIR,redeemair-tl-redeem-air
+redeemnonair-acl-redeem-non-air,Partner Dev X,REDEEMNONAIR,redeemnonair-acl-redeem-non-air
+redeemnonair-bl-redeem-non-air,Partner Dev X,REDEEMNONAIR,redeemnonair-bl-redeem-non-air
+redeemnonair-tl-jwt-validator,Partner Dev X,REDEEMNONAIR,redeemnonair-tl-jwt-validator
+reports-controller,Por validar,Por validar,reports-controller
+retros.latam-pass.latam.com,Plat. Core Systems,Por validar,retros.latam-pass.latam.com
+rotation-tnsx-intg,Por validar,Por validar,rotation-tnsx-intg
+safety-security-cameras-gke-intelbras-br-event,C7,Por validar,safety-security-cameras-gke-intelbras-br-event
+safety-security-mia-cctv-batch-ingestion,C7,Por validar,safety-security-mia-cctv-batch-ingestion
+safety-security-mia-ecargo-image-ingestion,C7,Por validar,safety-security-mia-ecargo-image-ingestion
+safety-security-vss-cameras-gke,C7,Por validar,safety-security-vss-cameras-gke
+safety-security-vss-cameras-gke-events,C7,Por validar,safety-security-vss-cameras-gke-events
+safety-security-ww-miami-cameras-gke,C7,Por validar,safety-security-ww-miami-cameras-gke
+safety-security-ww-peru-cameras-gke,C7,Por validar,safety-security-ww-peru-cameras-gke
+sbd-api-sbd-int,Por validar,Por validar,sbd-api-sbd-int
+sbd-gestion-latam-int,Por validar,Por validar,sbd-gestion-latam-int
+sbd-rotation-tnsx-intg,Por validar,Por validar,sbd-rotation-tnsx-intg
+sbd-selfbagdrop-int,Por validar,Por validar,sbd-selfbagdrop-int
+security-cameras-gke-intelbras-br-api-consumer,C7,Por validar,security-cameras-gke-intelbras-br-api-consumer
+security-cameras-gke-intelbras-br-event,C7,Por validar,security-cameras-gke-intelbras-br-event
+security-mia-cctv-batch-ingestion,C7,Por validar,security-mia-cctv-batch-ingestion
+security-mia-ecargo-image-ingestion,C7,Por validar,security-mia-ecargo-image-ingestion
+security-vss-cameras-gke,C7,Por validar,security-vss-cameras-gke
+security-vss-cameras-gke-events,C7,Por validar,security-vss-cameras-gke-events
+sigaitin-aircomsigaout,BTW Baggage,SIGAITIN,sigaitin-aircomsigaout
+sigaitin-api-consulta-consolidados,BTW Baggage,SIGAITIN,sigaitin-api-consulta-consolidados
+sigaitin-bl-events-sabre-pnae,BTW Baggage,SIGAITIN,sigaitin-bl-events-sabre-pnae
+sigaitin-bl-events-sabre-pnae-scl,BTW Baggage,SIGAITIN,sigaitin-bl-events-sabre-pnae-scl
+sigaitin-bl-gcp-concentrador-ofl,BTW Baggage,SIGAITIN,sigaitin-bl-gcp-concentrador-ofl
+sigaitin-bl-gcp-concentrador-voo,BTW Baggage,SIGAITIN,sigaitin-bl-gcp-concentrador-voo
+sigaitin-bl-sbdevents,BTW Baggage,SIGAITIN,sigaitin-bl-sbdevents
+sigaitin-bl-siga-holgura-critica,BTW Baggage,SIGAITIN,sigaitin-bl-siga-holgura-critica
+sigaitin-carta-gantt,BTW Baggage,SIGAITIN,sigaitin-carta-gantt
+sigaitin-dal-itinerary-flight,BTW Baggage,SIGAITIN,sigaitin-dal-itinerary-flight
+sigaitin-holgura-critica-previa,BTW Baggage,SIGAITIN,sigaitin-holgura-critica-previa
+sigaitin-itinerario-voos,BTW Baggage,SIGAITIN,sigaitin-itinerario-voos
+sigaitin-park-position,BTW Baggage,SIGAITIN,sigaitin-park-position
+sigaitin-pax-inad,BTW Baggage,SIGAITIN,sigaitin-pax-inad
+sigaitin-retencion-equipajes-final,BTW Baggage,SIGAITIN,sigaitin-retencion-equipajes-final
+sigaitin-retencion-equipajes-previa,BTW Baggage,SIGAITIN,sigaitin-retencion-equipajes-previa
+sigaitin-retencion-equipajes-siga,BTW Baggage,SIGAITIN,sigaitin-retencion-equipajes-siga
+sigaitin-siga-sabre-loadsheet,BTW Baggage,SIGAITIN,sigaitin-siga-sabre-loadsheet
+sigaitin-sigaaircomin,BTW Baggage,SIGAITIN,sigaitin-sigaaircomin
+sigaitin-sigaaircomoooi,BTW Baggage,SIGAITIN,sigaitin-sigaaircomoooi
+sigaitin-sigaitin-siga-sabre-lift,BTW Baggage,SIGAITIN,sigaitin-sigaitin-siga-sabre-lift
+sigaitin-smart-sas-itinerary,BTW Baggage,SIGAITIN,sigaitin-smart-sas-itinerary
+sigaitin-solucaoviagemirops-bl,BTW Baggage,SIGAITIN,sigaitin-solucaoviagemirops-bl
+smcloud-expire-token-redis,Sabre Hub,SMCLOUD,smcloud-expire-token-redis
+smcloud-load-redis,Sabre Hub,SMCLOUD,smcloud-load-redis
+smcloud-oversign-legacy,Sabre Hub,SMCLOUD,smcloud-oversign-legacy
+smcloud-session-manager-legacy,Sabre Hub,SMCLOUD,smcloud-session-manager-legacy
+smcloud-smcloud-acl-sabre,Sabre Hub,SMCLOUD,smcloud-smcloud-acl-sabre
+smcloud-ssp-monitoring-redis,Sabre Hub,SMCLOUD,smcloud-ssp-monitoring-redis
+smcloud-ssp-session-manager,Sabre Hub,SMCLOUD,smcloud-ssp-session-manager
+smi-send-teletype,Sabre Hub,SMI,smi-send-teletype
+smi-sjpm-mail-sender,Sabre Hub,SMI,smi-sjpm-mail-sender
+soa12-acl-sabrecommand,Sabre Hub,SOA_12,soa12-acl-sabrecommand
+spot-handler,Por validar,Por validar,spot-handler
+srtlatam-basewebapi-dbmigrations,Crew Management Core Capabilities,SRTLATAM,srtlatam-basewebapi-dbmigrations
+srtlatam-crew-host-be,Crew Management Core Capabilities,SRTLATAM,srtlatam-crew-host-be
+srtlatam-fe-basewebapi,Crew Management Core Capabilities,SRTLATAM,srtlatam-fe-basewebapi
+srtlatam-srt-be,Crew Management Core Capabilities,SRTLATAM,srtlatam-srt-be
+srtlatam-srt-bff,Crew Management Core Capabilities,SRTLATAM,srtlatam-srt-bff
+srtlatam-srt-data-in-be,Crew Management Core Capabilities,SRTLATAM,srtlatam-srt-data-in-be
+stackdriver-exporter,Flight Crew Management,Por validar,stackdriver-exporter
+streaming-cki,DataOPS,Por validar,streaming-cki
+streaming-pnr,DataOPS,Por validar,streaming-pnr
+streaming-vcr,DataOPS,Por validar,streaming-vcr
+tdm-agreement-dal,Sales & Travel,Por validar,tdm-agreement-dal
+template-gke-svc,CDP,Por validar,template-gke-svc
+template-spring-bl-2hhd,Plat. Airline Experience,REDEEMAIR,template-spring-bl-2hhd
+template-spring-email-acl,Por validar,Por validar,template-spring-email-acl
+template-spring-sftp,DataOPS,Por validar,template-spring-sftp
+tl-redeem-air,Plat. Airline Experience,REDEEMAIR,tl-redeem-air
+tmflow-digitalteamflow-backend,ITTAM,Por validar,tmflow-digitalteamflow-backend
+tmflow-digitalteamflow-frontend,ITTAM,Por validar,tmflow-digitalteamflow-frontend
+transfer-file-service,DataOPS,Por validar,transfer-file-service
+ttm-service,Pricing,Por validar,ttm-service
+user-profile-server,CDP,Por validar,user-profile-server
+web,Plat. Core Systems,Por validar,web
+workflowmanager-pia-be,Inventory,Por validar,workflowmanager-pia-be
+workload-autoscaler,Por validar,Por validar,workload-autoscaler
+zone-printer,C3,Por validar,zone-printer

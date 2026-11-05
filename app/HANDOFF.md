@@ -19,6 +19,7 @@ Reglas que no se rompen:
 | Artefactos/imágenes | Funcional | Busca por nombre. Cloud Asset Inventory (pods) + Artifact Registry (tags) + CMDB. Filtros por ambiente y versión (ej. "22x") |
 | Clic en "Dónde corre" -> CVE de la imagen | Funcional | Consulta SCC por digest. Totales, severidad/estado, paginación, CSV. Ejemplo verificado: dev 6 CVE, intg/prod 9 CVE |
 | Squads y CMDB | Funcional | `techgov-data-prod.cmdb_data_metrics.it_element` y `gcp_project`. Squad por proyecto (puede haber varios) |
+| Squad Beta (pestaña) | Funcional | Elige un squad (50, 672 artefactos en `semilla/squads_artefactos.csv`, solo nombres) y consulta GCP en vivo: pods (Cloud Asset) -> proyecto/cluster/namespace/tag desplegado; Artifact Registry (packages + versions orderBy createTime desc) -> último tag; CMDB -> squads del proyecto. Cargo Cross (86 artefactos, 238 filas) tarda ~37 s. Módulo `squad_beta.py` |
 | Dashboard (stock, activos, flapping, CVE únicos, filtros avanzados) | BLOQUEADO | 403 en `sp-te-secproject-prod-h5ls.scce_tvm.findings`. Falta pedir acceso de lectura (DataHub > Access Requests). Al tenerlo, reescribir el SQL con columnas tipadas (finding.state, finding.severity, finding.vulnerability.cve.id) y unir a gcp_project/it_element |
 | Índice de salud | N/D | Falta que se apruebe la fórmula |
 | Automatización 5am L-V | Solo diseñada | Cloud Scheduler + Cloud Run Job escribiendo a BigQuery. No creada: necesita tabla de escritura aprobada |

@@ -11,7 +11,7 @@ sys.path.insert(0,str(ROOT))
 from gcp_collect import active_gcloud_account, collect_inventory
 from scc_collect import SAFE_CVE, collect_vulnerabilities, query_exact_cve
 from bigquery_live import query_artifacts,query_cmdb,query_dashboard,query_project_squads
-import scc_browse
+import scc_browse,squad_beta
 import artifact_lookup
 from image_rules import base_versions, interpreted_version
 APP_ID='tools-latam-gcp-local-v1'
@@ -257,12 +257,12 @@ class Store:
             if job_id not in self.cve_jobs:raise KeyError('Consulta CVE no encontrada')
             return self.cve_jobs[job_id]
     def start_live_query(self,kind,payload):
-        if kind not in ('dashboard','artifacts','cmdb'):raise ValueError('Tipo de consulta no soportado')
+        if kind not in ('dashboard','artifacts','cmdb','squadbeta'):raise ValueError('Tipo de consulta no soportado')
         with self.lock:
             if any(job.get('status')=='running' and job.get('kind')==kind for job in self.live_jobs.values()):
                 raise ValueError(f'Ya hay una consulta {kind} en curso')
             job_id=uuid.uuid4().hex
-            self.live_jobs[job_id]={'jobId':job_id,'kind':kind,'status':'running','startedAt':now(),'message':'Consultando BigQuery en vivo…'}
+            self.live_jobs[job_id]={'jobId':job_id,'kind':kind,'status':'running','startedAt':now(),'message':'Consultando GCP en vivo…'}
             while len(self.live_jobs)>20:self.live_jobs.pop(next(iter(self.live_jobs)))
         def task():
             try:
@@ -270,6 +270,7 @@ class Store:
                     result=query_dashboard(payload.get('startDate'),payload.get('endDate'),payload.get('filters') or {},self.root)
                 elif kind=='artifacts':
                     result=query_artifacts(payload.get('search',''),payload.get('squad',''),self.root)
+                elif kind=='squadbeta':result=squad_beta.collect(payload.get('squad',''),self.root)
                 else:result=query_cmdb(self.root)
                 completed={'jobId':job_id,'kind':kind,'status':'done','startedAt':self.live_jobs[job_id]['startedAt'],'completedAt':now(),'message':f'Consulta {kind} completada.','result':result}
             except Exception as error:
@@ -346,6 +347,8 @@ class Handler(BaseHTTPRequestHandler):
             if route=='/api/cve/search':return self.send(202,self.server.store.start_cve_search(payload.get('cve')))
             if route=='/api/live/dashboard':return self.send(202,self.server.store.start_live_query('dashboard',payload))
             if route=='/api/live/artifacts':return self.send(202,self.server.store.start_live_query('artifacts',payload))
+            if route=='/api/live/squadbeta':return self.send(202,self.server.store.start_live_query('squadbeta',payload))
+            if route=='/api/squadbeta/squads':return self.send(200,squad_beta.squads(self.server.store.root))
             if route=='/api/live/cmdb':return self.send(202,self.server.store.start_live_query('cmdb',payload))
             self.send(404,{'error':'No encontrado'})
         except RuntimeError as e:self.send(409,{'error':str(e)})

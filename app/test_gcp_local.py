@@ -214,6 +214,22 @@ class ImageRulesTest(unittest.TestCase):
             self.assertEqual(store.catalog, [])
             self.assertEqual(store.inventory["images"], [])
 
+    def test_squad_beta_seed_and_matching(self):
+        import squad_beta
+        with tempfile.TemporaryDirectory() as tmp:
+            (Path(tmp) / "semilla").mkdir()
+            (Path(tmp) / "semilla" / "squads_artefactos.csv").write_text(
+                "Artefacto,Squad,IT element,Buscar como\na_b-bff,Alfa,IT1,a_b-bff\nc-svc,Alfa,Por validar,c-svc\nz-svc,Beta,,z-svc\n", encoding="utf-8")
+            data = squad_beta.squads(tmp)
+            self.assertEqual(data["totalArtifacts"], 3)
+            self.assertEqual(data["squads"][0]["squad"], "Alfa")
+            self.assertEqual(data["squads"][0]["artifacts"], 2)
+            with self.assertRaises(ValueError):
+                squad_beta.collect("No existe", tmp)
+        self.assertTrue(squad_beta._matches("a-b-bff", squad_beta._norm("grupo/a_b-bff")))
+        self.assertFalse(squad_beta._matches("bff", squad_beta._norm("grupo/a_b-bff")))
+        self.assertTrue(squad_beta._matches("grupo/a-b-bff", squad_beta._norm("x/grupo/a_b-bff")))
+
 
 if __name__ == "__main__":
     unittest.main()
