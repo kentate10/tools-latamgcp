@@ -348,6 +348,7 @@ class Handler(BaseHTTPRequestHandler):
             if route=='/api/live/dashboard':return self.send(202,self.server.store.start_live_query('dashboard',payload))
             if route=='/api/live/artifacts':return self.send(202,self.server.store.start_live_query('artifacts',payload))
             if route=='/api/live/squadbeta':return self.send(202,self.server.store.start_live_query('squadbeta',payload))
+            if route=='/api/squadbeta/versions':return self.send(200,squad_beta.versions(payload.get('query'),self.server.store.root))
             if route=='/api/squadbeta/squads':return self.send(200,squad_beta.squads(self.server.store.root))
             if route=='/api/live/cmdb':return self.send(202,self.server.store.start_live_query('cmdb',payload))
             self.send(404,{'error':'No encontrado'})

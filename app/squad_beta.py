@@ -26,6 +26,7 @@ PROJECT = re.compile(r"^[a-z][a-z0-9-]{3,62}$")
 GENERIC = {"api", "web", "app", "bff", "front", "frontend", "backend"}
 REGISTRY_TTL = 900
 MAX_PACKAGE_PAGES = 30
+MAX_VERSION_PAGES = 10
 MAX_POD_PAGES = 6
 _registry_cache = {"at": 0.0, "data": None, "warnings": [], "lock": threading.Lock()}
 
@@ -282,7 +283,7 @@ def collect(squad, root=ROOT):
             if latest_repo:
                 outdated = not (item["deployedDigest"] == latest_repo["digest"] or (item["deployedTag"] and item["deployedTag"] == latest_repo["tag"]))
             cm = cmdb.get(item["project"], [])
-            rows.append({**base, **latest_fields, "status": "desplegado", "environment": _environment(item["cluster"], item["namespace"], item["project"]) or REPO_ENV.get(item["repo"].split("-", 1)[-1], ""),
+            rows.append({**base, **latest_fields, "status": "desplegado", "environment": _environment(item["cluster"], item["namespace"], item["project"]) or next((c.get("environment") for c in cm if c.get("environment")), "") or REPO_ENV.get(item["repo"].split("-", 1)[-1], ""),
                          "project": item["project"], "cluster": item["cluster"], "namespace": item["namespace"], "pods": item["pods"],
                          "deployedTag": item["deployedTag"], "deployedVersion": int(parsed["version"]) if parsed else None,
                          "latestRepoTag": latest_repo["tag"] if latest_repo else "", "latestRepoCreated": latest_repo["created"] if latest_repo else "",
@@ -296,4 +297,69 @@ def collect(squad, root=ROOT):
     return {"schema": "latam-squad-beta-v1", "squad": squad or "*", "label": "Todos los squads" if squad in ("", "*") else squad, "seed": source,
             "summary": summary, "rows": rows, "artifacts": artifacts, "warnings": warnings[:50],
             "source": "Cloud Asset Inventory (pods) + Artifact Registry (dockerImages) + CMDB techgov; la semilla solo aporta nombres",
+            "queriedAt": datetime.now(GUATEMALA_TZ).isoformat(), "seconds": round(time.time() - started, 2)}
+
+
+def versions(query, root=ROOT):
+    """Todas las versiones con tag de un artefacto en todos los repositorios (master-220-<sha>, develop-223-<sha>, ...), en vivo."""
+    started = time.time()
+    key = _norm(query)
+    if not KEY.fullmatch(key):
+        raise ValueError("Nombre de artefacto no válido")
+    config, scc, _, token, _ = _context(root)
+    package_index, warnings = _package_index(token, scc, config)
+    project = config.get("artifact_project", "")
+    candidates = [c for c in package_index.get(key.rsplit("/", 1)[-1], []) if _matches(key, _norm(c["package"]))]
+
+    def fetch(candidate):
+        package = urllib.parse.quote(candidate["package"], safe="")
+        url = (f"https://artifactregistry.googleapis.com/v1/projects/{project}/locations/{candidate['location']}/repositories/{candidate['repo']}"
+               f"/packages/{package}/versions")
+        out, page_token = [], ""
+        for _ in range(MAX_VERSION_PAGES):
+            params = {"pageSize": "1000", "orderBy": "createTime desc", "view": "FULL"}
+            if page_token:
+                params["pageToken"] = page_token
+            page = _call("GET", url + "?" + urllib.parse.urlencode(params), token, scc)
+            out.extend(page.get("versions") or [])
+            page_token = page.get("nextPageToken") or ""
+            if not page_token:
+                return candidate, out, False, None
+        return candidate, out, True, None
+
+    rows, untagged, other_tags = [], 0, 0
+    with ThreadPoolExecutor(max_workers=6) as pool:
+        futures = [pool.submit(fetch, c) for c in candidates]
+        for future in futures:
+            try:
+                candidate, found, truncated, _ = future.result()
+            except Exception as error:
+                warnings.append(f"Artifact Registry: {str(error)[-250:]}")
+                continue
+            if truncated:
+                warnings.append(f"{candidate['repo']}: más de {MAX_VERSION_PAGES * 1000} versiones, lista acotada")
+            for version in found:
+                tags = [(t.get("name") or "").rsplit("/", 1)[-1] for t in version.get("relatedTags") or []]
+                if not tags:
+                    untagged += 1
+                for tag in tags:
+                    parsed = TAG_FORMAT.match(tag)
+                    if not parsed:
+                        other_tags += 1
+                        continue
+                    rows.append({"repo": candidate["repo"], "environment": REPO_ENV.get(candidate["repo"].split("-", 1)[-1], candidate["repo"]),
+                                 "package": candidate["package"], "tag": tag, "branch": parsed["branch"] if parsed else "",
+                                 "version": int(parsed["version"]) if parsed else None, "commit": parsed["sha"] if parsed else "",
+                                 "digest": (version.get("name") or "").rsplit("/", 1)[-1], "created": version.get("createTime") or ""})
+    rows.sort(key=lambda r: r["created"], reverse=True)
+    per_repo = {}
+    for row in rows:
+        if row["version"] is not None:
+            item = per_repo.setdefault(row["repo"], {"repo": row["repo"], "tags": 0, "minVersion": row["version"], "maxVersion": row["version"]})
+            item["tags"] += 1
+            item["minVersion"], item["maxVersion"] = min(item["minVersion"], row["version"]), max(item["maxVersion"], row["version"])
+    if not candidates:
+        warnings.append("No existe un paquete con ese nombre en los repositorios configurados.")
+    return {"schema": "latam-squad-beta-versions-v1", "query": key, "rows": rows, "perRepo": sorted(per_repo.values(), key=lambda r: r["repo"]),
+            "untaggedVersions": untagged, "otherTags": other_tags, "warnings": warnings[:30], "source": "Artifact Registry (versions)",
             "queriedAt": datetime.now(GUATEMALA_TZ).isoformat(), "seconds": round(time.time() - started, 2)}
