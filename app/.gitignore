@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+*.tmp
+inventario.anterior.json
+gcp_vulnerabilities.anterior.json
+scc-flags-*.yaml
+interfaz/datos/*.bak.json
+evidence/
+.tmp-tests/

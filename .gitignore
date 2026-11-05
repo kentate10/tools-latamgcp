@@ -1,0 +1,16 @@
+# Datos locales y evidencia: nunca al repo
+app/evidence/
+app/__pycache__/
+**/__pycache__/
+*.pyc
+app/gcp_status.json
+app/gcp_vulnerabilities*.json
+app/inventario*.json
+app/Catalogo.csv
+.tmp-tests/
+*.tmp
+*.log
+adc.json
+*.env
+.env*
+app/interfaz/datos/ediciones.json

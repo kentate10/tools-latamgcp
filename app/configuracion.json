@@ -1,0 +1,39 @@
+{
+  "version_objetivo": 219,
+  "organization_id": "766905427223",
+  "organization_name": "lan.com",
+  "quota_project": "pipeline-corporativo",
+  "scc": {
+    "billing_project": "sp-te-secproject-prod-h5ls",
+    "location": "global",
+    "max_findings": 1000,
+    "request_timeout_seconds": 1800
+  },
+  "bigquery": {
+    "billing_project": "sp-te-secproject-prod-h5ls",
+    "findings_table": "sp-te-secproject-prod-h5ls.scce_tvm.findings",
+    "artifacts_table": "pipeline-corporativo.panel_images.v_container_images_cmdb",
+    "images_table": "pipeline-corporativo.panel_images.cve_images_base",
+    "cmdb_table": "techgov-data-prod.cmdb_data_metrics.it_element",
+    "request_timeout_seconds": 180,
+    "max_result_rows": 5000,
+    "gcp_project_table": "techgov-data-prod.cmdb_data_metrics.gcp_project"
+  },
+  "cmdb_reference": {
+    "name": "my-it-assets",
+    "spreadsheet_id": "1Da0FwE2QHSOkPBG5yKF3WMUJrTxyOEEgZR9tv7pPlw0"
+  },
+  "artifact_project": "pipeline-corporativo",
+  "gcloud_path": "",
+  "repositories": [
+    {"location": "us", "name": "application-master"},
+    {"location": "us", "name": "application-intg"},
+    {"location": "us", "name": "application-cert"},
+    {"location": "us", "name": "application-develop"},
+    {"location": "us", "name": "application-feature"},
+    {"location": "us", "name": "base-images"}
+  ],
+  "tagged_only": true,
+  "max_images_per_repository": 5000,
+  "preserve_unseen_on_partial": true
+}
