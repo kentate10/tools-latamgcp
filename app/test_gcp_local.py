@@ -204,6 +204,16 @@ class ImageRulesTest(unittest.TestCase):
         with self.assertRaises(ValueError):
             scc_browse.build_image_filter(digest, {"state": 'ACTIVE" OR 1'})
 
+    def test_store_loads_without_local_inventory_files(self):
+        import shutil, tempfile
+        from interfaz.server import Store
+        with tempfile.TemporaryDirectory() as tmp:
+            shutil.copy(Path(__file__).parent / "configuracion.json", tmp)
+            store = Store(tmp)
+            store.load()
+            self.assertEqual(store.catalog, [])
+            self.assertEqual(store.inventory["images"], [])
+
 
 if __name__ == "__main__":
     unittest.main()

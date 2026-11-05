@@ -41,10 +41,16 @@ class Store:
         self.live_vulnerability_projects=set()
         self.live_jobs={}
     def load(self):
-        sig=tuple((self.root/n).stat().st_mtime_ns for n in ['inventario.json','Catalogo.csv','configuracion.json'])
+        def mtime(name):
+            path=self.root/name
+            return path.stat().st_mtime_ns if path.exists() else 0
+        sig=tuple(mtime(n) for n in ['inventario.json','Catalogo.csv','configuracion.json'])
         if sig!=self.signature:
-            self.inventory=read_json(self.root/'inventario.json')
-            with (self.root/'Catalogo.csv').open(encoding='utf-8-sig',newline='') as f:self.catalog=list(csv.DictReader(f))
+            inventory_path=self.root/'inventario.json';catalog_path=self.root/'Catalogo.csv'
+            self.inventory=read_json(inventory_path) if inventory_path.exists() else {'schema':'vacio','source':'Sin inventario local (solo consultas en vivo)','source_modified':0,'collected_at':'','rows':0,'images':[],'repositories':[]}
+            if catalog_path.exists():
+                with catalog_path.open(encoding='utf-8-sig',newline='') as f:self.catalog=list(csv.DictReader(f))
+            else:self.catalog=[]
             self.config=read_json(self.root/'configuracion.json');self.signature=sig
     def commit(self):
         if self.path.exists():shutil.copy2(self.path,self.path.with_suffix('.bak.json'))
